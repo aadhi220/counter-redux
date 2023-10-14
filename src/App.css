@@ -12,8 +12,9 @@
 .counter-card {
   width: 500px;
   height: 400px;
-  background-color: aliceblue;
-  border-radius: 3rem;
+  
+  border: 5px solid white;
+  border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +25,7 @@
 .result-field {
   width: 80%;
   height: 100px;
-  background-color: antiquewhite;
+  background-color: rgb(250, 206, 148);
 border-radius: 1rem;
 display: flex;
 justify-content: center;
@@ -39,10 +40,10 @@ font-size: 3rem;
 .btn {
   padding: 1rem;
   width: 8rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
 
 font-size: 1rem;
-  border: none;
+  border: ;
 }
 .decrement {
   background-color: rgb(212, 212, 25);
