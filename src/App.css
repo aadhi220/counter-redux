@@ -41,6 +41,7 @@ font-size: 3rem;
   padding: 1rem;
   width: 8rem;
   border-radius: .5rem;
+  box-shadow: 1px 1px  white;
 
 font-size: 1rem;
   border: ;
@@ -56,5 +57,33 @@ font-size: 1rem;
 }
 
 .btn:hover {
-  transform: ;
+  transform: scale(1.01);
+}
+
+.increment-input {
+  padding: .5rem 1rem;
+  width: 70%;
+  border-radius: .5rem;
+}
+
+
+.increment-add-box {
+  width: 80%; 
+  display: flex ;
+  justify-content: space-between;
+  gap:1rem
+}
+
+.btnAmount {
+
+  padding: 1rem;
+ 
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 30%;
+  border-radius: .5rem;
+  box-shadow: 1px 1px  white;
+
+font-size: 1rem; 
 }
